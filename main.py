@@ -86,7 +86,7 @@ class Parser_elibrary():
         self.data_res.index += 1
         print(self.data_res)
 
-        self.data_res.to_excel(f'{self.name_authors}.xlsx')
+        self.data_res.to_excel(f'{self.name_authors}.xlsx', sheet_name=self.name_authors)
 
 # print(f'Введите rsci автора:')
 # rsci = int(input())
