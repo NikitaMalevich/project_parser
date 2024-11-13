@@ -6,7 +6,7 @@
 1.1 В командной строке ввести pip install -r requierements.txt
 
 2. Установить chromedriver
-2.1 Положить в папку проекта
+2.1 Положить в папку проекта файл chromedriver
 
 3. Запустить файл main.py
 3.1. Ввести RINC id
